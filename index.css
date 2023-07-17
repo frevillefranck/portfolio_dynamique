@@ -1,0 +1,239 @@
+/* configuration header */
+header {
+  background-color: #202643;
+}
+
+/* configuration barre de navigation */
+nav {
+  height: 12vh;
+  vertical-align: bottom;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: right;
+  align-items: end;
+}
+nav a {
+  position: relative;
+  bottom: 5vh;
+}
+nav a:hover {
+  border: red solid 2px;
+  border-radius: 10px;
+}
+/* configuration menu dans la barre de navigation */
+.Accueil,
+.Projets,
+.A_propos,
+.Competences {
+  color: red;
+  font-size: x-large;
+  text-decoration: none;
+  margin: 2vh;
+}
+
+/* configuration logo */
+.logo {
+  position: relative;
+  height: 20vh;
+  top: 9vh;
+  margin-left: 5px;
+}
+
+/* configuration footer */
+footer {
+  background-color: #0f5edb;
+  bottom: 0;
+  position: absolute;
+  vertical-align: middle;
+  text-align: right;
+  height: 7vh;
+  width: 100%;
+}
+
+/* configuration image github */
+.github {
+  margin-right: 25px;
+  position: relative;
+  height: 3vh;
+}
+/* configuration iimage linkedin */
+.linkedin {
+  position: relative;
+  margin-top: 9px;
+  margin-right: 25px;
+  height: 4vh;
+}
+.gmail {
+  width: 3%;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+/* configuration image dev accueil */
+.image-dev {
+  width: 45%;
+  border-radius: 35px;
+}
+/* configuration de la section qui contient l'image dev */
+#section-image-dev {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 25vh;
+  margin-left: 5vh;
+}
+/* configuration du texte à coté de l'image dev */
+.texte-image-dev {
+  line-height: 5vh;
+  font-size: xx-large;
+  margin-left: 2vh;
+  margin-right: 1vh;
+}
+/* configuration de la section des projets */
+#section-projets {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-top: 25vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  font-size: x-large;
+  text-align: center;
+}
+/* configuration des images des projets */
+.image-bulbizarre,
+.image-carapuce,
+.image-salameche {
+  width: 100%;
+  border: black solid 2px;
+  border-radius: 20%;
+}
+/* Ajustement de l'image */
+.div-bulbizarre {
+  width: 33vh;
+}
+/* Ajustement de l'image */
+.div-salameche {
+  width: 27vh;
+}
+/* Ajustement de l'image */
+.div-carapuce {
+  width: 30vh;
+}
+/* Placement de la section "a propos" */
+#section-a-propos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+/* Ajustement du portrait */
+.image-portrait {
+  width: 100%;
+  border: black solid 2px;
+  border-radius: 20%;
+}
+/* Ajustement de la div du portrait */
+.div-portrait {
+  width: 33vh;
+}
+/* Texte dessous le portrait */
+.description {
+  font-size: xx-large;
+  text-align: center;
+  line-height: 6vh;
+}
+/* Placement de la section compétence */
+.section-competence {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/* ajustement de la position du CV */
+.section-CV {
+  position: relative;
+  top: 15vh;
+  right: 20vh;
+}
+/* configuration du CV */
+.CV {
+  height: 50vh;
+  width: 35vh;
+}
+/* tableau des compétences */
+.section-graphique {
+  position: relative;
+  border: black solid 1px;
+  border-radius: 10px;
+  left: 10vh;
+  top: 10vh;
+  padding: 1vh;
+  background-color: rgb(235, 230, 230);
+  width: 30%;
+}
+/* Texte dans les barres de compétences */
+.section-graphique h2 {
+  font-size: xx-large;
+  text-align: center;
+}
+/* Titre "competence" */
+.nom-competence {
+  font-size: x-large;
+}
+/* barre de compétence vide (fond) */
+.barre-vide {
+  font-size: medium;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #0f5edb;
+  margin-top: 5px;
+}
+/* barre de compétence CSS */
+.barre-css {
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  width: 20%;
+  background-color: #202643;
+}
+/* barre de compétence HTML */
+.barre-html {
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  width: 30%;
+  background-color: #202643;
+}
+/* barre de compétence PHP */
+.barre-php {
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  width: 40%;
+  background-color: #202643;
+}
+/* barre de compétence javascript */
+.barre-js {
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  width: 15%;
+  background-color: #202643;
+}
+/* barre de compétence SQL */
+.barre-SQL {
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  width: 15%;
+  background-color: #202643;
+}
+/* texte du lien pour voir le CV */
+.voir-CV {
+  text-decoration: none;
+  font-size: x-large;
+  text-align: center;
+}
