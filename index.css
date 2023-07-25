@@ -5,7 +5,7 @@ header {
 
 /* configuration barre de navigation */
 nav {
-  height: 12vh;
+  height: 8vh;
   vertical-align: bottom;
   display: flex;
   flex-direction: row;
@@ -14,12 +14,12 @@ nav {
   align-items: end;
 }
 nav a {
+  float: left;
   position: relative;
-  bottom: 5vh;
+  text-align: center;
 }
 nav a:hover {
-  border: red solid 2px;
-  border-radius: 10px;
+  background-color: white;
 }
 /* configuration menu dans la barre de navigation */
 .Accueil,
@@ -36,15 +36,16 @@ nav a:hover {
 .logo {
   position: relative;
   height: 20vh;
-  top: 9vh;
+  top: 13vh;
   margin-left: 5px;
 }
 
 /* configuration footer */
 footer {
   background-color: #0f5edb;
+  /* top: 30vh; */
   bottom: 0;
-  position: absolute;
+  position: fixed;
   vertical-align: middle;
   text-align: right;
   height: 7vh;
@@ -69,6 +70,7 @@ footer {
   margin-top: 10px;
   margin-right: 20px;
 }
+
 /* configuration image dev accueil */
 .image-dev {
   width: 45%;
@@ -157,11 +159,13 @@ footer {
   position: relative;
   top: 15vh;
   right: 20vh;
+  flex-wrap: wrap;
 }
 /* configuration du CV */
 .CV {
   height: 50vh;
   width: 35vh;
+  flex-wrap: wrap;
 }
 /* tableau des compétences */
 .section-graphique {
@@ -173,6 +177,7 @@ footer {
   padding: 1vh;
   background-color: rgb(235, 230, 230);
   width: 30%;
+  flex-wrap: wrap;
 }
 /* Texte dans les barres de compétences */
 .section-graphique h2 {
