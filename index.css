@@ -45,6 +45,7 @@ footer {
   background-color: #0f5edb;
   /* top: 30vh; */
   bottom: 0;
+  justify-content: space-between;
   position: fixed;
   vertical-align: middle;
   text-align: right;
@@ -92,18 +93,18 @@ footer {
   margin-right: 1vh;
 }
 /* configuration de la section des projets */
-#section-projets {
+/* #section-projets {
   display: flex;
-  justify-content: space-between;
-  /* align-items: center; */
   margin-top: 25vh;
   margin-left: 10vh;
   margin-right: 10vh;
   font-size: x-large;
   text-align: center;
-}
+  justify-content: space-between;
+} */
+
 /* configuration des images des projets */
-.image-bulbizarre,
+/* .image-bulbizarre,
 .image-carapuce,
 .image-salameche {
   width: 100%;
@@ -111,17 +112,20 @@ footer {
   border-radius: 20%;
 }
 /* Ajustement de l'image */
-.div-bulbizarre {
+/* .div-bulbizarre {
+  display: none;
   width: 33vh;
 }
 /* Ajustement de l'image */
-.div-salameche {
+/* .div-salameche {
+  display: none;
   width: 27vh;
-}
+}  */
 /* Ajustement de l'image */
-.div-carapuce {
-  width: 30vh;
-}
+/* .div-carapuce {
+  display: block;
+  width: 30vh; */
+/* } 
 /* Placement de la section "a propos" */
 #section-a-propos {
   display: flex;
