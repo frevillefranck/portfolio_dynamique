@@ -1,7 +1,7 @@
 const slide = [
-  'images/carapuce.png',
-  'images/salameche.png',
-  'images/bulbizarre.png',
+  '../images/carapuce.png',
+  '../images/salameche.png',
+  '../images/bulbizarre.png',
 ];
 let numero = 0;
 function ChangeSlide(sens) {
