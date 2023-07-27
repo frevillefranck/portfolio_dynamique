@@ -56,7 +56,7 @@
 #hamburger.croix span {
   transform-origin: center;
 
-  transform: all 1s ease-in;
+  transform: all 5s ease-in;
 }
 #hamburger.croix span:nth-child(2) {
   display: none;
@@ -80,7 +80,13 @@
 
   #topnav #nav.responsive {
     width: 100%;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
+      margin-top:20vh;
+      margin-right:2vh
+      
   }
   #hamburger {
     display: flex;
