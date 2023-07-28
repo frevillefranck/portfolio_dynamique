@@ -1,0 +1,95 @@
+.section-competence {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* ajustement de la position du CV */
+  .section-CV {
+    position: relative;
+    top: 15vh;
+    right: 20vh;
+    flex-wrap: wrap;
+  }
+  /* configuration du CV */
+  .CV {
+    height: 50vh;
+    width: 35vh;
+    flex-wrap: wrap;
+  }
+  /* tableau des compétences */
+  .section-graphique {
+    position: relative;
+    border: black solid 1px;
+    border-radius: 10px;
+    left: 10vh;
+    top: 10vh;
+    padding: 1vh;
+    background-color: rgb(235, 230, 230);
+    width: 30%;
+    flex-wrap: wrap;
+  }
+  /* Texte dans les barres de compétences */
+  .section-graphique h2 {
+    font-size: xx-large;
+    text-align: center;
+  }
+  /* Titre "competence" */
+  .nom-competence {
+    font-size: x-large;
+  }
+  /* barre de compétence vide (fond) */
+  .barre-vide {
+    font-size: medium;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #0f5edb;
+    margin-top: 5px;
+  }
+  /* barre de compétence CSS */
+  .barre-css {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 20%;
+    background-color: #202643;
+  }
+  /* barre de compétence HTML */
+  .barre-html {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 30%;
+    background-color: #202643;
+  }
+  /* barre de compétence PHP */
+  .barre-php {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 40%;
+    background-color: #202643;
+  }
+  /* barre de compétence javascript */
+  .barre-js {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 15%;
+    background-color: #202643;
+  }
+  /* barre de compétence SQL */
+  .barre-SQL {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 15%;
+    background-color: #202643;
+  }
+  /* texte du lien pour voir le CV */
+  .voir-CV {
+    text-decoration: none;
+    font-size: x-large;
+    text-align: center;
+  }

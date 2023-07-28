@@ -1,0 +1,8 @@
+@import url(./reset/reset.css);
+@import url(./global/global.css);
+@import url(./nav/nav.css);
+@import url(./slider/slider.css);
+@import url(./footer/footer.css);
+@import url(./accueil/accueil.css);
+@import url(./compétences/competences.css);
+@import url(./a_propos/a_propos.css);

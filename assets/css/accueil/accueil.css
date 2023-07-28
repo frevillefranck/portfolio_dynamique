@@ -1,0 +1,18 @@
+.image-dev {
+    width: 45%;
+    border-radius: 35px;
+  }
+#section-image-dev {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25vh;
+    margin-left: 5vh;
+  }
+  /* configuration du texte à coté de l'image dev */
+  .texte-image-dev {
+    line-height: 5vh;
+    font-size: xx-large;
+    margin-left: 2vh;
+    margin-right: 1vh;
+  }

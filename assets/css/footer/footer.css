@@ -1,0 +1,24 @@
+#footer {
+  width: 100%;
+    height: 7vh;
+    display: flex;
+    background-color: #0f5edb;
+    align-items: center;
+    justify-content: right;
+    bottom: 0;
+    position: fixed;
+  }
+  #gmail,
+  #github,
+  #linkedin {
+    display: flex;
+    width: 30px;
+    height: 30px;
+  }
+  #gmail {
+    margin-right: 50px;
+  }
+  #linkedin {
+    margin-left: 43px;
+    margin-right: 50px;
+  }

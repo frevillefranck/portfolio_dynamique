@@ -1,0 +1,24 @@
+#section-a-propos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 5vh;
+  }
+  /* Ajustement du portrait */
+  .image-portrait {
+    margin-top: 5vh;
+    width: 100%;
+    border: black solid 2px;
+    border-radius: 20%;
+  }
+  /* Ajustement de la div du portrait */
+  .div-portrait {
+    width: 33vh;
+  }
+  /* Texte dessous le portrait */
+  .description {
+    font-size: xx-large;
+    text-align: center;
+    line-height: 6vh;
+  }

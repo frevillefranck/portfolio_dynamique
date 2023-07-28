@@ -37,10 +37,9 @@
     <div id="footer">
         <a href="mailto:freville.franck@gmail.com" id="gmail"><img src="../images/gmail.png" alt="logo gmail"></a>
         <a href="https://github.com/frevillefranck" id="github"><img src="../images/github-logo.png" alt="github"></a>
-        <a href="https://www.linkedin.com/in/franck-fr%C3%A9ville-87039519b/" id="linkedin"><img
-                src="../images/logo_linkedin.webp" alt="linkedin"></a>
+        <a href="https://www.linkedin.com/in/franck-fr%C3%A9ville-87039519b/" id="linkedin"><img src="../images/logo_linkedin.webp" alt="linkedin"></a>
     </div>
-    <script src="../js/test.js"></script>
+    <script src="./assets/js/index.js"></script>
 
 </body>
 
