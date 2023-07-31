@@ -26,7 +26,9 @@
     </p>
 
   </section>
-
+  <?php
+  include("./components/liens.php")
+  ?>
   <?php
   include("./components/footer.php")
   ?>

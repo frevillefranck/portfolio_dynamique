@@ -25,6 +25,7 @@
     </div>
   </div>
 
+
   <?php
   include("../components/footer.php")
   ?>

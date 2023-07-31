@@ -17,7 +17,6 @@ scrolltop.addEventListener('click', () => {
   window.scrollTo(0, 0);
 });
 
-
 //slider pour les projets
 const slide = [
   '../images/carapuce.png',
